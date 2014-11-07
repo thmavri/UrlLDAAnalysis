@@ -1,6 +1,7 @@
 UrlLDAAnalysis
 ==============
 It analyzes a URL using LDA with Gibbs sampling (JGibbLDA implementation in Java, jgibblda.sourceforge.net) in order to extract salient topics and corresponding words
+
      * You can define the following inputs:
      * nTopics : number of Topics
      * alpha : alpha variable of LDA (suggested value from research work is 50 / number of Topics
@@ -12,6 +13,7 @@ It analyzes a URL using LDA with Gibbs sampling (JGibbLDA implementation in Java
 
 
 Web parsing is performed using JSOUP (JSOUP.org)
+
      * The content that is provided to LDA as input consists of the textual content of the HTML of the url, along with the title and alt text of the images
      * @param args the command line arguments
      */
